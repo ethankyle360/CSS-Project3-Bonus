@@ -1,0 +1,116 @@
+body
+{
+    font-family: 'Mansalva', cursive;
+}
+
+div
+{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+div:nth-child(1)
+{
+    border: 1px solid black;
+    width: 59.2%;
+    height: 68.5%;
+    background-color: red;
+}
+
+div:nth-child(2)
+{
+    border: 1px solid black;
+    background-color: yellow;
+    width: 24%;
+    height: 25.2%;
+    top: 70%;
+    left: 71.2%;
+}
+
+/* dont change */
+div:nth-child(3)
+{
+    border: 1px solid black;
+    background-color: green;
+    width: 30%;
+    height: 25%;
+    top: 70%;
+}
+
+div:nth-child(4), div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8)
+{
+    border: 2px solid black;
+}
+
+div:nth-child(4)
+{
+    width: 35%;
+    height: 18.5%;
+    left: 60%;
+}
+
+/* dont change */
+div:nth-child(5)
+{
+    width: 15%;
+    height: 25%;
+    top: 70%;
+    left: 30.8%;
+}
+
+div:nth-child(6)
+{
+    width: 25%;
+    height: 25%;
+    top: 70%;
+    left: 46%;
+}
+
+div:nth-child(7)
+{
+    width: 35%;
+    height: 15%;
+    top: 20%;
+    left: 60%;
+}
+
+div:nth-child(8)
+{
+    width: 20%;
+    height: 34.7%;
+    left: 75%;
+    top: 35%;
+}
+
+div:nth-child(9)
+{
+    border: 1px solid black;
+    background: purple;
+    width: 15%;
+    height: 35%;
+    top: 35%;
+    left: 60%;
+}
+
+div:nth-child(10)
+{
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    background-color: black;
+    border: 1px solid black;
+    top: 62%;
+    left: 11.4%;
+}
+
+p
+{
+    color: black;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 30%;
+    color: white;
+    font-size: 15px;
+}
